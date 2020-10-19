@@ -12,11 +12,10 @@ form {
   align-items: center;
 }
 
-form input,
-form button {
+form input, form button {
   padding: 0.5rem;
   border: none;
-  background: #fff;  
+  background: #fff;
   color: black;
   outline-style: none;
   margin: 0 -1px;
@@ -29,6 +28,11 @@ form button {
 
 form button:hover {
   background: rgb(26, 26, 31);
+  color: #fff;
+}
+
+form button:active {
+  background: rgb(54, 54, 61);
   color: #fff;
 }
 
